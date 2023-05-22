@@ -1,0 +1,77 @@
+/* Kontak Kami */
+section {
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+/* Informasi Kontak */
+.contact-info {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.contact-info h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
+
+.contact-info a {
+  display: flex;
+  align-items: center;
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-info img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+/* Hover Effect */
+.contact-info a:hover {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-info a:hover img {
+  filter: brightness(0);
+}
+
+.contact-info a:hover span {
+  color: #555;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #333;
+}
